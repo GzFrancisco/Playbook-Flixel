@@ -2,7 +2,7 @@ package assets
 {
 	public class DonatelloAsset
 	{
-		[Embed(source="donatello_spritesheet.png")]
+		[Embed(source="donatello-sheet.png")]
 		public static const IMAGE:Class;
 	}
 }
