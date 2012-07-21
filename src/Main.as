@@ -1,14 +1,17 @@
 package
 {
-	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	
-	public class Main extends Sprite
+	import org.flixel.FlxGame;
+	
+	import states.GameState;
+	
+	public class Main extends FlxGame
 	{
 		public function Main()
 		{
-			super();
+			super(480, 320, GameState); 
 			
 			// support autoOrients
 			stage.align = StageAlign.TOP_LEFT;
